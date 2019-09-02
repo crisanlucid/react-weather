@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Container, Row, Col } from 'reactstrap';
+import CardMyWeather from './components/CardWeather';
 
 function App() {
 	return (
@@ -12,7 +13,7 @@ function App() {
 			<Container className='px-0'>
 				<Row noGutters className='pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative'>
 					<Col tag='main' className='pb-md-0 mb-md-0 mx-auto mx-md-0'>
-						//to do CardMyWeather
+						<CardMyWeather />
 					</Col>
 				</Row>
 			</Container>

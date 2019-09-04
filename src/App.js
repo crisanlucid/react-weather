@@ -21,12 +21,12 @@ function App() {
 				<Container className='px-0 footer__inner'>
 					<hr />
 					<Row className='content'>
-						<Col>
+						<Col sm={6}>
 							<p className='credits'>
 								<strong>©2019 Lucian Crisan, all rights reserved. Made with for a better web.</strong>
 							</p>
 						</Col>
-						<Col className='text-right'>
+						<Col sm={6}>
 							<a href='https://github.com/keithjgrant' className='social-area' rel='me'>
 								<svg xmlns='http://www.w3.org/2000/svg' id='Git' viewBox='0 0 48 48'>
 									<title>Github logo</title>

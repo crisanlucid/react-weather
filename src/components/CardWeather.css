@@ -1,1 +1,62 @@
-/* to do style for CardWeather */
+/* to do style for Weather CSS*/
+
+@font-face {
+    font-family: 'MyWeather';
+    src: local('MyWeather'), url('./fonts/Weather&Time.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+.weather_widget__temperature-avg {
+    position: absolute;
+    line-height: inherit;
+}
+
+.weather_widget__temperature-avg::before {
+    position: absolute;
+    content: '°C';
+    left: 2.3rem;
+}
+
+.weather-widget__temperature-min {
+    color: green;
+    display: block;
+    position: relative;
+    left: 5px;
+    top: -10px;
+    vertical-align: sub;
+    line-height: inherit;
+}
+
+.weather-widget__temperature-max {
+    color: red;
+    display: block;
+    position: relative;
+    left: 5px;
+    top: -5px;
+    vertical-align: super;
+    line-height: inherit;
+}
+
+.weather-widget__img {
+    font-family: "MyWeather";
+    font-weight: 400;
+    width: auto;
+    font-size: 2rem;
+}
+
+.weather-widget__row {
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.weather-widget__weekday {
+    font-size: 0.8rem;
+}
+
+/* UTILS */
+
+.u-mt {
+    margin-top: 20px;
+}
